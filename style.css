@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    background: #f3f4f6;
+    color: #111;
+    padding: 2rem;
+  }
+  .container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  input, textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  button {
+    padding: 10px 20px;
+    background: #111;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #logsList {
+    list-style: none;
+    padding: 0;
+  }
+  #logsList li {
+    background: #f1f1f1;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }

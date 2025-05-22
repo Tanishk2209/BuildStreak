@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BuildStreak</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🚀 BuildStreak</h1>
+    <p>Log your daily build. Keep the streak alive. Share your story.</p>
+
+    <form id="logForm">
+      <input type="text" id="title" placeholder="What did you build today?" required />
+      <textarea id="description" placeholder="Describe your progress..." required></textarea>
+      <button type="submit">Log Build</button>
+    </form>
+
+    <h2>🔥 Current Streak: <span id="streak">0</span> days</h2>
+
+    <div id="logsContainer">
+      <h3>Your Build Logs</h3>
+      <ul id="logsList"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
